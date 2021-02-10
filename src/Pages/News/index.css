@@ -1,0 +1,25 @@
+.all-news-wrapper {
+  padding: 60px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.all-news-title-wrapper {
+  display: flex;
+  margin-bottom: 25px;
+}
+.all-news-title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 35px;
+}
+.all-news-title-first {
+  color: #131e32;
+}
+.all-news-title-second {
+  color: #39d1a4;
+  margin-left: 10px;
+}

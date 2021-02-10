@@ -1,0 +1,82 @@
+.footer {
+  height: 214px;
+  background: #161828;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-logo {
+  width: 200px;
+}
+.footer-documents-links {
+  margin-top: 21px;
+}
+.footer-documents-link-block {
+  display: flex;
+  align-items: center;
+}
+.footer-documents-link-icon {
+  width: 7px;
+  height: 7px;
+  background: #39d1a4;
+  margin-right: 15px;
+}
+.footer-documents-link {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #5e708d;
+  cursor: pointer;
+}
+.footer-documents-link:hover {
+  color: #fff;
+}
+.footer-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.footer-contacts-icons {
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-contacts-every-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.footer-contacts-facebook {
+  background: #39d1a4;
+}
+.footer-contacts-facebook:hover {
+  background: #1e8566;
+}
+.footer-contacts-insta {
+  border: 1px solid #2c3141;
+  box-sizing: border-box;
+}
+.footer-contacts-insta:hover {
+  border: 1px solid #1e8566;
+}
+@media screen and (max-width: 550px) {
+  .footer-documents {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    height: 170px;
+  }
+}

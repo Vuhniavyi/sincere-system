@@ -1,0 +1,107 @@
+.news-block-wrapper {
+  width: 1000px;
+  min-height: 200px;
+  background: #fff;
+  display: flex;
+  padding: 20px;
+  margin: 20px 0px;
+  align-items: flex-start;
+}
+.news-block-wrapper:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.news-logo {
+  width: 160px;
+  height: 100%;
+}
+.news-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  justify-content: space-between;
+}
+.news-content {
+}
+.news-title {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  color: #131e32;
+}
+.news-content-text {
+  margin-bottom: 25px;
+}
+.news-content-text p {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 25px;
+  color: #5e708d;
+}
+.news-author {
+  display: flex;
+  align-items: center;
+}
+.news-author-img {
+  width: 36px;
+  height: 36px;
+}
+.news-author-text {
+  margin-left: 15px;
+}
+.news-author-name {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #131e32;
+  margin-bottom: 3px;
+}
+.news-author-date {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e708d;
+}
+@media screen and (max-width: 1100px) {
+  .news-block-wrapper {
+    max-width: 840px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .news-block-wrapper {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .news-block-wrapper {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .news-block-wrapper {
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .all-news-title {
+    font-size: 27px !important;
+  }
+  .news-logo {
+    width: 160px;
+    height: 100%;
+    margin-bottom: 15px;
+  }
+  .all-news-wrapper {
+    padding: 20px 30px 30px !important;
+  }
+}
